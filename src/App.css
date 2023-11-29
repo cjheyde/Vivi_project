@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #dbcfbb;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color:#662C10;
+  text-decoration: none;
+}
+
+/* Header starts here */
+.header {
+  background-color: #662C10;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  align-items: center;
+}
+
+#topnav {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Montserrat";
+}
+
+#topnav header {
+  margin-left: auto; /* This brings the menu to the left side */
+  margin-top: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.nav-item {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Shop categories */
+#category-container {
+  padding-bottom: 3rem;
+  margin: 20px auto;
+  width: 90%;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 5px 18px 5px 18px;
+}
+
+.category-grid .card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  margin: 10px;
+  max-width: 300px;
+}
+
+.category-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.product-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.active {
+  font-size: 25px;
+  font-weight: 600;
+  color: 	#759b84;
+  text-decoration: none;
+}
+
+.active a {
+  margin-right: 20px; /* This provides space between the menu items */
+  padding-left: 10px;
+  color: #7F9E86;
+}
+
+.category-grid .card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.product-img {
+  width: 100%;
+}
+
+.category-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.product-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Contact form */
+.contact {
+  width:max-content;
+  height: auto;
+  margin-bottom: 30px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#form {
+  display: inherit;
+  font-family: Montserrat, sans-serif;
+  color:#6e4835;
+  font-weight: bold;
+  width: auto;
+  margin: 20px auto;
+}
